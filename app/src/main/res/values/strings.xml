@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Shell执行器</string>
+    <string name="terminal_title">终端</string>
+    <string name="add_script">添加脚本</string>
+    <string name="script_name">脚本名称</string>
+    <string name="script_path">脚本路径</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="execute">执行</string>
+    <string name="delete">删除</string>
+    <string name="edit">编辑</string>
+    <string name="no_scripts">暂无脚本，点击下方按钮添加</string>
+    <string name="enter_command">输入命令...</string>
+    <string name="send">发送</string>
+    <string name="clear">清屏</string>
+    <string name="stop">停止</string>
+    <string name="script_executing">脚本执行中...</string>
+    <string name="script_completed">脚本执行完成</string>
+    <string name="script_failed">脚本执行失败</string>
+    <string name="no_root">未获取Root权限</string>
+    <string name="root_granted">已获取Root权限</string>
+    <string name="requesting_root">正在请求Root权限...</string>
+    <string name="script_name_empty">脚本名称不能为空</string>
+    <string name="script_path_empty">脚本路径不能为空</string>
+    <string name="script_saved">脚本已保存</string>
+    <string name="script_deleted">脚本已删除</string>
+    <string name="confirm_delete">确认删除</string>
+    <string name="confirm_delete_message">确定要删除这个脚本吗？</string>
+    <string name="output">输出</string>
+    <string name="error">错误</string>
+    <string name="file_not_found">文件不存在</string>
+    <string name="permission_denied">权限被拒绝</string>
+    <string name="browse">浏览</string>
+    <string name="settings">设置</string>
+    <string name="about">关于</string>
+</resources>

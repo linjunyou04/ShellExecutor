@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.ShellExecutor" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+    
+    <style name="Theme.ShellExecutor.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    
+    <style name="Theme.ShellExecutor.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    
+    <style name="Theme.ShellExecutor.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    
+    <!-- 终端样式 -->
+    <style name="TerminalTextStyle">
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textColor">@color/terminal_text</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">4dp</item>
+    </style>
+    
+    <!-- 脚本卡片样式 -->
+    <style name="ScriptCardStyle">
+        <item name="cardCornerRadius">8dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="contentPadding">16dp</item>
+    </style>
+</resources>
