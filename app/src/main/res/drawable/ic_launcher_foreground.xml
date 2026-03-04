@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Terminal window background -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M24,24h60v60h-60z"/>
+    
+    <!-- Terminal screen -->
+    <path
+        android:fillColor="#1E1E1E"
+        android:pathData="M28,32h52v48h-52z"/>
+    
+    <!-- Prompt line -->
+    <path
+        android:fillColor="#00FF00"
+        android:pathData="M34,42 L44,48 L34,54 Z"/>
+    
+    <!-- Cursor line -->
+    <path
+        android:fillColor="#00FF00"
+        android:pathData="M48,42h4v12h-4z"/>
+    
+    <!-- Second line -->
+    <path
+        android:fillColor="#00FF00"
+        android:pathData="M34,60h24h-24v4h24v-4z"/>
+</vector>
