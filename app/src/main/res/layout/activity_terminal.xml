@@ -24,7 +24,7 @@
             android:layout_height="48dp"
             android:background="?attr/selectableItemBackgroundBorderless"
             android:src="@android:drawable/ic_menu_revert"
-            android:tint="@color/white"
+            app:tint="@color/white"
             android:contentDescription="返回" />
 
         <TextView
@@ -45,7 +45,7 @@
             android:layout_height="48dp"
             android:background="?attr/selectableItemBackgroundBorderless"
             android:src="@android:drawable/ic_menu_delete"
-            android:tint="@color/white"
+            app:tint="@color/white"
             android:contentDescription="@string/clear" />
 
         <ImageButton
@@ -54,7 +54,7 @@
             android:layout_height="48dp"
             android:background="?attr/selectableItemBackgroundBorderless"
             android:src="@android:drawable/ic_menu_close_clear_cancel"
-            android:tint="@color/error_color"
+            app:tint="@color/error_color"
             android:contentDescription="@string/stop" />
 
     </LinearLayout>
@@ -160,7 +160,7 @@
             android:layout_height="48dp"
             android:background="?attr/selectableItemBackgroundBorderless"
             android:src="@android:drawable/ic_menu_send"
-            android:tint="@color/terminal_text"
+            app:tint="@color/terminal_text"
             android:contentDescription="@string/send" />
 
     </LinearLayout>
